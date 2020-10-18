@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="fragment.FaqFragment"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/faqtext"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:hint="WRITE HERE...."
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="18dp"></EditText>
+
+    <Button
+        android:id="@+id/btnpost"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/faqtext"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round"
+        android:text="POST"></Button>
+
+</RelativeLayout>

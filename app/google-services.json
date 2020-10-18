@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136607090780",
+    "firebase_url": "https://ag-s-photo.firebaseio.com",
+    "project_id": "ag-s-photo",
+    "storage_bucket": "ag-s-photo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136607090780:android:69f6de818dad626daa7e99",
+        "android_client_info": {
+          "package_name": "com.example.agsphotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136607090780-bnojahfc26ovjoojvsmjlt78ffej8629.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXnJqwU7Co4KKTzUHy5tDpT1omV7gG5Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136607090780-bnojahfc26ovjoojvsmjlt78ffej8629.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

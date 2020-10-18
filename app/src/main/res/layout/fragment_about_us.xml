@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="fragment.AboutUsFragment"
+    android:weightSum="6"
+    >
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/aakash"
+        android:id="@+id/owner1"
+        android:background="@drawable/image"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/name1"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="AAKASH DORATA"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/owner1"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:padding="5dp"
+        android:text="gurjaraakash1997@gmail.com"
+        android:textColor="#000"
+        android:layout_below="@+id/name1"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_toRightOf="@+id/owner1"
+        ></TextView>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/owner2"
+            android:background="@drawable/image"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/name2"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:text="ARUN DORATA"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/owner2"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email2"
+            android:padding="5dp"
+            android:text="arun @gmail.con"
+            android:textColor="#000"
+            android:layout_below="@+id/name2"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_toRightOf="@+id/owner2"
+            ></TextView>
+    </RelativeLayout>
+
+
+</LinearLayout>
